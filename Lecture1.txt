@@ -1,0 +1,53 @@
+Abstraction levels of a modern computer
+
+It has 6 levels.
+6  User Applications
+5  High level languages C/C++, GO, Java, etc.
+4  Low level language Assembler
+3  System softwar OS, system utils
+2  Machine Instruction set architecture(ISA)
+1  Control Hardwired  or microcode
+0  Digital logic gates and circuits
+
+What is an algebra?
+Symbols and rules for manipulating symbols
+
+What is programming?
+Symbols and rules for manipulating symbols
+
+Boolean Algebra - symbols can take on two values, by convention we use zero(False) and one(True)
+
+Operations from boolean algebra:
+AND
+OR
+NOT
+
+Boolean identities
+
+Name 		  AND form 		     Or form
+Identity	  1x=x			      0+x=x
+Null		  0x=0                1+x=1
+Idempotent	  xx=x			      x+x=x
+Inverse	      xx'=0               x+x'=1
+Commutative   xy=yx               x+y=y+x
+Associative  (xy)z=x(yz)         (x+y)+z=x+(y+z)
+Distributive  x+(yz)=(x+y)(x+z)	  x(y+z)=xy+xz
+Absorption    x(x+y)=x			  x+xy=x
+DeMorgan's    (xy)'=x'+y'         (x+y)' x'+y'
+Involution	  			(x')'=x
+
+
+What is the precedence of Boolean operations?
+NOT, AND, OR
+
+F_1(x,y,z) = x + y'z
+
+X   Y  Z  F_1
+0   0  0   0
+0	0  1   1		
+0	1  0   0
+0  	1  1   0
+1	0  0   1
+1   0  1   1
+1	1  0   1
+1	1  1   1
