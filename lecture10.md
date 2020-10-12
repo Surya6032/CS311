@@ -44,4 +44,22 @@ Forms of effective addressing:
   5. execute
   6. store result
   
+  ### Pipelining 
+  Each step is called a pipeline stage.One way is Instruction level pipeling (ILP)
+  
+  ### K stage pipeline
+      tp  - 1st task:-K x tp
+            2nd task:- K x tp +1
+            --------------------
+           total task=(n-1)x tp
+      
+      (k*tp)+(n-1)*tp = (k+n-1)tp
+      =k+(n-1)
+      
+      Speedup = time without pipeline/time with pipeline
+      
+      n(k*tp)
+      
+      S = n(k*tp)/(k+n-1)tp= k*tp/tp=k
+      (Only theoretical)
   
