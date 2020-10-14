@@ -62,4 +62,26 @@ Forms of effective addressing:
       
       S = n(k*tp)/(k+n-1)tp= k*tp/tp=k
       (Only theoretical)
+ 
+ ### Pipeline Conflicts(3 -Types)
+ 1. Resource conflict(Structural hazard)
+ 2. data dependency
+ 3. Conditional branch statements
+ 
+ ### Memory 
+ 
+ To deal with the fact that memory is orders of magnitude slower than the CPU, we create a memory hierarchy of different types of memory.
+ 
+ #### RAM - Random Access Memory, read/write, volatile
+ #### ROM - Read only memory, non volatile
+ 
+ #### Two common types of RAM
+ 1) Dynamic RAM (DRAM) - built with capacitors, must be refreshed often
+ 2) Static RAM (SRAM) - built with flip flops, retains content as long as it is powered
   
+#### 5 Types of ROMS
+1) ROM -data/program is fabricated into the chip and cannot be changed.
+2) PROM - programmable ROM has fuses that are blown to program the chip, one time programming.
+3) EPROM - erasable PROM, can be reprogrammed with UV light, erase entire chip and program it
+4) EEPROM - electrically erasable PROM, they can be erased and reprogrammed by byte, no special equipment.
+5) Flash Memory - an EEPROM where we can read and write by block(faster than EEPROM)
